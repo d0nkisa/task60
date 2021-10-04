@@ -60,7 +60,7 @@ html {
     color: #e76d1c;
 }
 
-.navbar-hamburger {
+.navbar-burger {
     top: 15px;
     right: 15px;
     position: absolute;
@@ -73,8 +73,8 @@ html {
     height: 5px;
 }
 
-.navbar-hamburger::before,
-.navbar-hamburger::after {
+.navbar-burger::before,
+.navbar-burger::after {
     content: '';
     position: absolute;
     z-index: 1;
@@ -84,7 +84,7 @@ html {
     background: inherit;
 }
 
-.navbar-hamburger::after {
+.navbar-burger::after {
     top: 10px;
 }
 
@@ -92,8 +92,7 @@ html {
     .navbar-menu {
         display: none;
     }
-    .hamburger-wrap,
-    .navbar-hamburger {
+    .navbar-burger {
         display: flex;
     }
 }
